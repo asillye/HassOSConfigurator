@@ -34,7 +34,7 @@ set +e
   performWork mmcblk0p1
   performWork mmcblk1p1
   performWork nvme0n1p1
-
+  performWork mmcblk1p4
   echo "This Configurator did it's job. Perform a hard-power-off now. This configurator only works once and is no longer needed."
   sleep 99999;
 done
